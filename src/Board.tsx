@@ -98,8 +98,8 @@ class Board extends React.Component<IBoardProps, IBoardStates> {
               <span className="win-blue">YOU </span>
               <span className="win-red">WON</span>
             </div>
-
           </div>
+
           <button onClick={this.restartGame} className="new-button">New Game</button>
         </div>
       )
